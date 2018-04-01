@@ -2,7 +2,7 @@
 
 ## The project is to analyse of text tonality / sentiment analysis.
 
-The aim - is to develop a model that will give accurate predictions for the customer's test sample, but the training sample for is not given. It should be collected.
+The aim - is to develop a model that will give accurate predictions for the customer's feedback (in russian language) on electronic goods. There is no trining set. It should be collected.
 
 ## Projects steps overview
 The first step was to build a model with the given data about on films review. At this step, I learnt how to analyze the text, what metrics to use, how the classifiers and their settings are better able to cope with this task.
