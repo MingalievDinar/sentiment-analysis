@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Feedback analysis</title>
+<form action="{{ url_for('feedback_page') }}" method=post>
+    <dl>
+        <dt>Please, put your feedback bellow<br>
+        <dd><textarea name=text rows=10 cols=80>{{ text }}</textarea>
+        <dd><input type=submit value="Estimate">
+    </dl>
+</form>
+
+<br>Sentiment prediction:<br>
+{{ prediction_message }}
