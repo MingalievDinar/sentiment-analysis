@@ -16,10 +16,10 @@ This task is divided into the following sub-tasks:
 ## Folders and files:
 
 * [parsingModelDev](https://github.com/MingalievDinar/sentiment-analysis/tree/master/parsingModelDev) - steps lelated to data collection and model development:
-** data parsing (BeautifulSoup bs4)
-** data processing
-** feature extraction (CountVectorizer and TfidfVectorizer from sklearn.feature_extraction.text)
-** creating Pipeline
-** model selection (cross_val_score and GridSearchCV from sklearn.model_selection)
-** considered models: SVC, SGD and Logistic
+  * data parsing (BeautifulSoup bs4)
+  * data processing
+  * feature extraction (CountVectorizer and TfidfVectorizer from sklearn.feature_extraction.text)
+  * creating Pipeline
+  * model selection (cross_val_score and GridSearchCV from sklearn.model_selection)
+  * considered models: SVC, SGD and Logistic
 * [webServer](https://github.com/MingalievDinar/sentiment-analysis/tree/master/webServer) - steps lelated to creating small server on Flask
