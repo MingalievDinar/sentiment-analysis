@@ -17,8 +17,8 @@ This task is divided into the following sub-tasks:
 
 * [parsingModelDev](https://github.com/MingalievDinar/sentiment-analysis/tree/master/parsingModelDev) - steps lelated to data collection and model development:
   * data parsing (BeautifulSoup bs4)
-   * [parsing links](https://github.com/MingalievDinar/sentiment-analysis/blob/master/parsingModelDev/parse_mobile_links.py)
-   * [parsing data from web-pages of e-shop](https://github.com/MingalievDinar/sentiment-analysis/blob/master/parsingModelDev/parse_mobile_data.py)
+    * [parsing links](https://github.com/MingalievDinar/sentiment-analysis/blob/master/parsingModelDev/parse_mobile_links.py)
+    * [parsing data from web-pages of e-shop](https://github.com/MingalievDinar/sentiment-analysis/blob/master/parsingModelDev/parse_mobile_data.py)
   * data processing
   * feature extraction (CountVectorizer and TfidfVectorizer from sklearn.feature_extraction.text)
   * creating Pipeline
